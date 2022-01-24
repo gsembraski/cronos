@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   prefixes: {
-    default: 'http://localhost:3000',
+    default: 'https://deloitte-cronos-api.herokuapp.com/',
   },
 };
 

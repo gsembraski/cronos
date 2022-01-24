@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  prefixes: {
+    default: 'https://deloitte-cronos-api.herokuapp.com/',
+  },
 };
