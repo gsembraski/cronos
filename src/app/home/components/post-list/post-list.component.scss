@@ -1,0 +1,16 @@
+.card {
+  border: none;
+  border-radius: 0;
+  .card-text {
+    text-align: justify;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid #d2d7da;
+    width: 40%;
+    transform: translateX(-50%);
+    bottom: -15px;
+    left: 50%;
+  }
+}

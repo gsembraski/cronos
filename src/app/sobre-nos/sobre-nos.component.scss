@@ -1,0 +1,30 @@
+p {
+  text-align: justify;
+}
+
+.card {
+  border: none;
+  i {
+    font-size: 50px;
+    color: var(--bs-primary);
+    align-self: center;
+    min-width: 120px;
+  }
+  .card-text {
+    text-align: justify;
+  }
+}
+
+.avatar-container {
+  text-align: center;
+  img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}

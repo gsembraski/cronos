@@ -1,0 +1,14 @@
+<div class="row py-4">
+  <div class="col-12 pb-4" *ngFor="let item of posts">
+    <div class="card align-self-stretch">
+      <img [src]="item.imgUrl" class="card-img-top" *ngIf="item.imgUrl">
+
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center">{{item.title}}</h5>
+        <p class="card-text" [innerHTML]="item.text"></p>
+      </div>
+    </div>
+  </div>
+
+  <a class="d-flex justify-content-end" [routerLink]="['/blog']">Ver todos os posts</a>
+</div>

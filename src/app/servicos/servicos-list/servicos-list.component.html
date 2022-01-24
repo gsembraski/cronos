@@ -1,0 +1,13 @@
+<h3>Serviços</h3>
+
+<div class="row pt-4">
+  <div class="col-md-4 col-12 pb-4" *ngFor="let item of servicos">
+    <div class="card align-self-stretch">
+      <div class="card-body">
+        <i [ngClass]="item.icon" class="d-flex justify-content-center pb-3"></i>
+        <h5 class="card-title d-flex justify-content-center">{{item.title}}</h5>
+        <p class="card-text">{{item.subtitle}}</p>
+      </div>
+    </div>
+  </div>
+</div>
