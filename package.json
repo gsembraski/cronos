@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "node index.js",
     "build": "ng build",
-    "heroku-postbuild": "ng build --prod",
+    "heroku-postbuild": "--configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
