@@ -45,7 +45,7 @@
     "typescript": "x.x.x"
   },
   "engines": {
-    "node": "x.x.x",
+    "node": "14.x.x",
     "npm": "x.x.x"
   }
 }
