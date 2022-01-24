@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   prefixes: {
-    default: 'https://deloitte-cronos-api.herokuapp.com/',
+    default: 'https://deloitte-cronos-api.herokuapp.com',
   },
 };
 
